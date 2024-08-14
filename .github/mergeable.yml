@@ -1,0 +1,13 @@
+version: 2
+mergeable:
+  - when: pull_request.opened
+    validate:
+      - do: title
+        begins_with:
+          match: [ 'TEST-']
+    fail:
+      - do: comment
+        payload:
+          body: >
+            **⚠️ In order for automatic Jira linkage** the PR title must begin with the Jira associated with this change. 'TEST'
+        leave_old_comment: true
