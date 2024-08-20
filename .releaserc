@@ -3,8 +3,8 @@
     {"name": "main" }, 
     {"name": "pre/rc", "prerelease": "rc", "channel": false},
     {"name": "pre/feature-name", "prerelease": "feature-name", "channel": false},
-    {"name": "pre/service-name", "prerelease": "service-name", "channel": false}
-
+    {"name": "pre/service-name", "prerelease": "service-name", "channel": false},
+    {"name": "pre/*", "prerelease": true, "channel": false}
   ],
   "plugins": [
     [
