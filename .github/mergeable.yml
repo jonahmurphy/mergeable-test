@@ -11,3 +11,9 @@ mergeable:
           body: >
             **⚠️ In order for automatic Jira linkage** the PR title must begin with the Jira associated with this change. 'TEST'
         leave_old_comment: true
+      - do: checks # default failure case
+        status: 'failure' # Can be: success, failure, neutral, cancelled, timed_out, or action_required
+        payload:
+          title: 'Mergeable Run have been Completed!'
+          summary: "All the validators have returned 'fail'! \n Here are some stats of the run: \n {{validationCount}} validations were ran"
+          text: "test text"
