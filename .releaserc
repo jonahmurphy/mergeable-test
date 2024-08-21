@@ -1,7 +1,7 @@
 {
   "branches": [
-    {"name": "main" }, 
-    {"name": "next-major" }, 
+    {"name": "main", "range": "7.x.x" }, 
+    {"name": "next-major", }, 
     {"name": "pre/rc", "prerelease": "rc", "channel": false},
   ],
   "plugins": [
