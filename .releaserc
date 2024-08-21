@@ -1,8 +1,7 @@
 {
   "branches": [
     {"name": "main"}, 
-    {"name": "pre/rc", "prerelease": "rc", "channel": false},
-    {"name": "test-feat", "prerelease": "test-feat", "channel": false}
+    {"name": "pre/*", "prerelease": "rc", "channel": false},
   ],
   "plugins": [
     [
