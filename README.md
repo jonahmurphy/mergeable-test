@@ -15,3 +15,6 @@ test 6.0 main
 test 8.0 main
 
 test next on main
+
+test next major
+xxx
