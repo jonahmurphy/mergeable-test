@@ -22,7 +22,7 @@ xxx
 testxy
 majortest
 majortest2rc
-xxxxx
+xxxxxxx
 
 
 
