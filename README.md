@@ -20,3 +20,5 @@ test next major
 xxx
 yyyy
 xxx
+testxy
+majortest
