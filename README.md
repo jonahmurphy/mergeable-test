@@ -20,3 +20,4 @@ test next major
 xxx
 yyyy
 xxx
+test
