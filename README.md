@@ -5,7 +5,6 @@ breaking change
 
 another breaking change
 
-
 xxx
 
 test 5.0.0 pre-release
@@ -22,3 +21,4 @@ yyyy
 xxx
 testxy
 majortest
+majortest2rc
