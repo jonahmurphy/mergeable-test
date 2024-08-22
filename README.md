@@ -22,3 +22,4 @@ yyyy
 xxx
 testxy
 majortest
+majortest2rc
