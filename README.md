@@ -20,7 +20,7 @@ xxx
 yyyy
 xxx
 testxy
-majortest
+majorxxest
 majortest2rc
 xxxxxxx
 xxx
