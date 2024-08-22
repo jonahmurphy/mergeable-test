@@ -25,3 +25,4 @@ majortest2rc
 xxxxxxx
 xxx
 zzz
+yyy
