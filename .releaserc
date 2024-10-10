@@ -16,6 +16,7 @@
       "@semantic-release/github",
       {
         "successCommentCondition": true,
+        "successComment": :tada: This PR is included in version ${nextRelease.version} :tada:\n\nThe release is available on [GitHub release](../releases/tag/v${nextRelease.version})\n\n> 
         "failComment": false
       }
     ],
